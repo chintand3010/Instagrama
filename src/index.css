@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+}
+.thumbs-wrapper {
+  display: none;
+}
+.carousel-status {
+  display: none;
+}
+.swiper-wrapper {
+  margin: 0 12px;
+}
+.swiper-slide {
+  display: grid;
+  place-items: center;
+}
+
+
